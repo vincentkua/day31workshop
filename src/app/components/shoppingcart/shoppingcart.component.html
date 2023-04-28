@@ -1,0 +1,9 @@
+<h3>My Cart</h3>
+
+<div *ngFor="let i of mycart ; let idx = index" class="itembox">
+    <img src="/assets/img/{{i.item}}.png" class="iconbox" />
+    <div class="description">{{i.item}}, Quantity:{{i.quantity}}</div>
+    <button style="float: right" (click)="removeorder(idx)">Remove</button>
+</div> 
+
+

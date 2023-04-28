@@ -1,1 +1,22 @@
-/* You can add global styles to this file, and also import other style files */
+.itembox{
+    border: 1px solid black;
+    width: 350px; 
+    height: 25px;
+    padding: 15px 10px;
+    margin-top: -1px;
+}
+
+.iconbox{
+    float: left; 
+    width: 25px; 
+    height: 25px;
+}
+
+.description{
+    /* border: 1px solid black; */
+    width: 230px; 
+    float: left; 
+    margin-left: 10px;
+    margin-top: 3px;
+}
+

@@ -1,0 +1,10 @@
+<h3>Please Select</h3>
+
+<div *ngFor="let i of itemarray" class="itembox">
+  <img src="/assets/img/{{i}}.png" class="iconbox" />
+  <div class="description">{{i}}</div>
+  <button style="float: right" (click)="additem(i)">Add</button>
+</div>
+
+
+
